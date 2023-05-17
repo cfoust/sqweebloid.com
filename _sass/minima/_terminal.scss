@@ -1,0 +1,26 @@
+// Establish all 16 colors for the terminal
+$term-red: red !default;
+$term-white: white !default;
+$term-black: black !default;
+
+.term-block {
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  font-variant-ligatures: none;
+  overflow: hidden;
+  width: 100%;
+  outline: none !important;
+  white-space: pre-wrap;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+}
+
+.term-red {
+  color: $term-red;
+}
+
+.term-bg-white {
+  background-color: $term-white;
+  color: $term-black;
+}
